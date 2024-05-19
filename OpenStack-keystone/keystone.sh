@@ -46,7 +46,6 @@ if [ \$? -eq 0 ]; then
             if [ \$? -eq 0 ]; then
                 echo 'User initialization finished.'
                 
-                # Check if the file exists and remove it before creating the symlink
                 if [ -e /etc/httpd/conf.d/wsgi-keystone.conf ]; then
                     rm /etc/httpd/conf.d/wsgi-keystone.conf
                     echo 'Existing /etc/httpd/conf.d/wsgi-keystone.conf removed.'
