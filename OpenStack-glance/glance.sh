@@ -9,7 +9,7 @@ if [ $? -eq 0 ]; then
     if [ $? -eq 0 ]; then
         echo "Existing glance database deleted."
 
-    mysql -uroot -p000000 -e "CREATE DATABASE glance; GRANT ALL PRIVILEGES ON glance.* TO 'glance'@'localhost' IDENTIFIED BY '000000'; GRANT ALL PRIVILEGES ON glance.* TO 'glance'@'%' IDENTIFIED BY '000000';"
+    	mysql -uroot -p000000 -e "CREATE DATABASE glance; GRANT ALL PRIVILEGES ON glance.* TO 'glance'@'localhost' IDENTIFIED BY '000000'; GRANT ALL PRIVILEGES ON glance.* TO 'glance'@'%' IDENTIFIED BY '000000';"
 	 else
        		 echo "Failed to delete existing glance database."
     fi
