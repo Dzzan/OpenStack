@@ -1,4 +1,5 @@
 #!/bin/bash
+
 yum -y install openstack-glance
 
 if [ $? -eq 0 ]; then
