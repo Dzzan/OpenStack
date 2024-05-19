@@ -1,11 +1,14 @@
 #!/bin/bash
 yum -y install openstack-glance
+
 if [ $? -eq 0 ]; then
     echo "Package openstack-glance installed successfully."
     mysql -uroot -p000000 -e "CREATE DATABASE glance; GRANT ALL PRIVILEGES ON glance.* TO 'glance'@'localhost' IDENTIFIED BY '000000'; GRANT ALL PRIVILEGES ON glance.* TO 'glance'@'%' IDENTIFIED BY '000000';"
+    
     if [ $? -eq 0 ]; then
         echo "Database operations completed successfully."
         cp /etc/glance/glance-api.conf /etc/glance/glance-api.bak
+        
         if [ $? -eq 0 ]; then
             echo "Backup successful."
             grep -Ev '^$|#' /etc/glance/glance-api.bak > /etc/glance/glance-api.conf
