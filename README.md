@@ -1,2 +1,2 @@
 # OpenStack
-利用脚本实现OpenStack组件的自动安装与配置
+在CentOS 7环境下利用Shell脚本实现OpenStack组件的自动安装与配置
