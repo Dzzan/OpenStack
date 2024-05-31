@@ -1,1 +1,0 @@
-此内容为OpenStack计算节点提供必要组件的安装脚本，脚本包含：nova_for_compute.sh、dashboard.sh、neutron_for_compute.sh
