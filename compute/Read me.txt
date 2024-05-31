@@ -1,0 +1,1 @@
+This content provides installation scripts for necessary components for OpenStack compute nodes. The scripts include: nova_for_compute.sh, dashboard.sh, neutron_for_compute.sh
