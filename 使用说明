@@ -1,0 +1,6 @@
+1.将全部文件拷贝到里的Linux里 
+2.若处于控制节点，执行main_for_controller.sh文件 Linux命令：./main_for_controller.sh 
+  若处于控制节点，执行main_for_compute.sh文件 Linux命令：./main_for_compute.sh 
+3.按提示输入设置你的密码
+4.等待安装与配置
+5.完成
