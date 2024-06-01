@@ -1,4 +1,0 @@
-The document prepares for the basic environment of OpenStack, and the installation includes Chrony, OpenStack base framework, RabbitMQ, Memcached, and etcd.
-Please back up and clone the node by yourself.
-Author:@Dzzan
-E-mail:d3zzan@gmail.com
