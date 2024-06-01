@@ -1,0 +1,1 @@
+此内容为OpenStack控制节点提供必要组件的安装脚本，脚本包含keystone.sh、glance.sh、placement.sh、nova_for_controller.sh、neutron_for_controller.sh、cinder.sh
