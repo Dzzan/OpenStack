@@ -1,0 +1,7 @@
+1.下载文件到你的Linux系统
+
+2.    Chmod +x /OpenStack/main/main_for_controller.sh
+
+3.    ./OpenStack/main/main_for_controller.sh
+
+4.按提示输入密码，等待安装与配置
