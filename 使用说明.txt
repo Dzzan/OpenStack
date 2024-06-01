@@ -1,3 +1,5 @@
+本项目是基于CentOS 7为OpenStack控制节点（controller）、OpenStack计算节点（compute）提供其必要组件的一键安装与部署的服务
+
 1.下载文件到你的Linux系统
 
 2.    chmod +x /OpenStack/main/main_for_controller.sh
@@ -5,8 +7,6 @@
 3.    ./OpenStack/main/main_for_controller.sh
 
 4.按提示输入密码，等待安装与配置
-
-本项目是基于CentOS 7为OpenStack控制节点（controller）、OpenStack计算节点（compute）提供其必要组件的一键安装与部署的服务
 
 在使用服务前请确保您已经配置好相应的网络、软件源、主机名解析和禁用SELinux
 
@@ -16,6 +16,6 @@
 
 若未准备依赖服务请先：
 
-      chmod +x /root/OpenStack/prepare/support.sh
+1.    chmod +x /root/OpenStack/prepare/support.sh
 
-     ./OpenStack/prepare/support.sh
+2.    ./OpenStack/prepare/support.sh
