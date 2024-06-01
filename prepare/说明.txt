@@ -1,0 +1,5 @@
+此文件为	OpenStack准备其必要的基础支持服务，内容包含Chrony、OpenStack基础框架、RbbitMQ、Memcached、etcd。
+双节点请自行克隆与备份
+作者:@Dzzan
+邮箱:d3zzan@gmail.com
+
