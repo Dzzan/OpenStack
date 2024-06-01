@@ -1,0 +1,1 @@
+This content provides installation scripts for necessary components of the OpenStack control node, including keystone.sh, glance.sh, placement.sh, nova_for_controller.sh, neutron_for_controller.sh, cinder.sh
