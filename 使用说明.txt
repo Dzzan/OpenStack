@@ -1,6 +1,6 @@
 1.下载文件到你的Linux系统
 
-2.    Chmod +x /OpenStack/main/main_for_controller.sh
+2.    chmod +x /OpenStack/main/main_for_controller.sh
 
 3.    ./OpenStack/main/main_for_controller.sh
 
